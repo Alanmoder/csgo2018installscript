@@ -20,8 +20,9 @@ int main() {
     }
     system("curl --output C:\\Games\\2018.zip https://files.hackvshack.net/2018.zip");
     system("powershell Expand-Archive -Path C:\\Games\\2018.zip -DestinationPath C:\\Games\\2018");
-    system("curl --output %%USERPROFILE%%\\Desktop\\2018.exe ");
+    system("curl --output %%USERPROFILE%%\\Desktop\\2018.exe https://alanmoder.github.io/csgo2018installscript/CSGO2018.exe");
     printf("Succesfully installed CSGO 2018");
     getchar();
     return 0;
+
 }
